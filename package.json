@@ -1,8 +1,10 @@
 {
   "private": true,
   "scripts": {
+    "css:check": "npx stylelint **/*.css",
+    "css:fix": "npx stylelint **/*.css --fix",
     "html:check": "npx htmlhint **/*.html",
-    "test": "npm run html:check"
+    "test": "npm run html:check && npm run css:check"
   },
   "repository": {
     "type": "git",
@@ -15,6 +17,8 @@
   },
   "homepage": "https://github.com/badabam/html-intro#readme",
   "devDependencies": {
-    "htmlhint": "0.15.2"
+    "htmlhint": "0.15.2",
+    "stylelint": "13.13.1",
+    "stylelint-config-standard": "22.0.0"
   }
 }
