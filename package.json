@@ -6,7 +6,11 @@
     "html:check": "npx htmlhint **/*.html",
     "prettier:check": "npx prettier --check .",
     "prettier:fix": "npx prettier --write .",
-    "test": "npm run html:check && npm run css:check && npm run prettier:check"
+    "test": "npm run html:check && npm run css:check && npm run prettier:check",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   },
   "repository": {
     "type": "git",
@@ -20,6 +24,8 @@
   "homepage": "https://github.com/badabam/html-intro#readme",
   "devDependencies": {
     "htmlhint": "0.15.2",
+    "husky": "7.0.2",
+    "lint-staged": "11.2.3",
     "prettier": "2.4.1",
     "stylelint": "13.13.1",
     "stylelint-config-prettier": "8.0.2",
