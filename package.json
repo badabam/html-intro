@@ -10,6 +10,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
+    "**/*.css": "npm run css:fix",
     "**/*": "prettier --write --ignore-unknown"
   },
   "repository": {
