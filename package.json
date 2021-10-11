@@ -10,8 +10,8 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "**/*.css": "npm run css:fix",
-    "**/*": "prettier --write --ignore-unknown"
+    "**/*.css": "echo 1",
+    "**/*": "echo 2"
   },
   "repository": {
     "type": "git",
