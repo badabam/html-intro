@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badabam/html-intro.git"
+  },
+  "author": "Jeremias Erbs <jerry@badabam.de> (https://badabam.de/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badabam/html-intro/issues"
+  },
+  "homepage": "https://github.com/badabam/html-intro#readme",
+  "devDependencies": {
+    "htmlhint": "0.15.2"
+  }
+}
