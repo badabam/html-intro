@@ -1,7 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "html:check": "npx htmlhint **/*.html",
+    "test": "npm run html:check"
   },
   "repository": {
     "type": "git",
