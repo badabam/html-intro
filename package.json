@@ -1,4 +1,5 @@
 {
+  "name": "html-intro",
   "private": true,
   "scripts": {
     "css:check": "npx stylelint **/*.css",
